@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 238, 238);
+    padding: 0px;
+    margin: 0px;
+    transition: background-color 0.5s;
+}
+
+header {
+    background-color: rgb(255, 200, 200);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-content img {
+    height: 100px;
+    width: auto;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(255, 200, 200);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.card {
+    background-color: rgb(230, 124, 124);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card2 {
+    background-color: rgb(230, 124, 124);
+    border-radius: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 150px;
+    text-align: center;
+
+}
+
+.center {
+    text-align: justify;
+    background-color: rgb(230, 124, 124);
+    height: 160px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.padding {
+    padding-left: 5px;
+    margin-bottom: 100px;
+}
+
+form {
+    max-width: 50px;
+}
+
+#botao {
+    background-color: rgb(226, 102, 102);
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    background-color: rgb(230, 124, 124);
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(165, 61, 61);
+    font-weight: bold;
+}
+.a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.a2{
+    background-color: rgb(165, 61, 61);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-group {
+    margin-top: 2rem;
+}
+
+.btn-group a {
+    margin: 0 1rem;
+}
+
+.shop-item {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.shop-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shop-item button {
+    background-color: #7fc8a9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 2px;
+}
